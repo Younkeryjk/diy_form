@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.w7.cc" versionCode="">
+	
+	<application setting='false'>
+		<name><![CDATA[表单DIY]]></name>
+
+		<identifie><![CDATA[wjsw_form]]></identifie>
+
+		<version><![CDATA[1.0.0]]></version>
+
+		<ability><![CDATA[表单DIY]]></ability>
+
+		<type><![CDATA[form]]></type>
+
+		<description><![CDATA[自定义表单：单选、多选、单行文本、多行文本、下拉列表等]]></description>
+
+		<author><![CDATA[网加思维]]></author>
+
+		<url><![CDATA[]]></url>
+
+		<setting><![CDATA[]]></setting>
+
+	</application>
+
+	
+	<platform>
+		<rule embed="false" />
+
+		<rule embed="false" />
+
+	<supports>
+
+			<item type="app" />
+	</supports>
+
+	</platform>
+
+	
+	<bindings>
+		<cover>
+			<entry title="封面" do="index" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="表单管理列表" do="form" state="list" direct="false" />
+		</menu>
+	</bindings>
+
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
